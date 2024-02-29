@@ -38,13 +38,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                dir('/mnt/c/Users/User/Desktop/minispe') {
+            
                     script {
 
                         // Build Docker image
                         docker.build("${DOCKER_IMAGE_NAME}", '.')
                     }
-                }
+                
             }
         }
 
