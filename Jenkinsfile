@@ -1,4 +1,4 @@
-pipeline {
+ pipeline {
     agent any
 
     environment {
@@ -20,7 +20,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build maven') {
             steps 
                 {
                     sh 'mvn clean package'
