@@ -15,7 +15,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [],
                     submoduleCfg: [],
-                    userRemoteConfigs: [[url: 'https://github.com/sree04/SPE_MiniProject.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/sree04/calculator_miniproject.git']]
                 ])
             }
         }
