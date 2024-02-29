@@ -28,7 +28,7 @@
             
         }
 
-        stage('Run Tests') {
+        stage('Run test') {
             steps {
                
                     sh 'mvn test'
