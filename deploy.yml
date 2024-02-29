@@ -18,4 +18,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name calculator sreeparna04/spe_test_image
+      shell: docker run -it -d sreeparna04/spe_test_image
